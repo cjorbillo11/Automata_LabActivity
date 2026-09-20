@@ -3,12 +3,14 @@
 This repository contains a C implementation and formal documentation for a Non-Deterministic Finite Automaton (NFA) that recognizes C-style comments over the alphabet $\Sigma = \{a, *, /\}$.
 
 ## Written Assignment & State Diagram
-![Written Assignment](written.jpg)
+![Written Assignment](Lab1NFA/image/written.jpg)
 
 ## Program Execution & Output
-![Terminal Output](output.png)
+![Terminal Output](Lab1NFA/image/output.png)
 
 ## How to Run
 1. Compile the C code using GCC:
-   ```bash
-   gcc main.c -o nfa
+```bash
+gcc Lab1NFA/program/main.c -o nfa
+./nfa
+```
